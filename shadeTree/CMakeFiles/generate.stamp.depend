@@ -1,0 +1,12 @@
+# CMake generation dependency list for this directory.
+C:/ProgramData/NVIDIA Corporation/OptiX SDK 3.7.0/SDK/shadeTree/CMakeLists.txt
+C:/ProgramData/NVIDIA Corporation/OptiX SDK 3.7.0/SDK/CMake/FindCUDA/run_nvcc.cmake
+C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/shadeTree/CMakeFiles/shadeTree.dir/shadeTree_generated_camera.cu.ptx.depend
+C:/ProgramData/NVIDIA Corporation/OptiX SDK 3.7.0/SDK/CMake/FindCUDA/run_nvcc.cmake
+C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/shadeTree/CMakeFiles/shadeTree.dir/shadeTree_generated_shader_functions.cu.ptx.depend
+C:/ProgramData/NVIDIA Corporation/OptiX SDK 3.7.0/SDK/CMake/FindCUDA/run_nvcc.cmake
+C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/shadeTree/CMakeFiles/shadeTree.dir/shadeTree_generated_materials.cu.ptx.depend
+C:/ProgramData/NVIDIA Corporation/OptiX SDK 3.7.0/SDK/CMake/FindCUDA/run_nvcc.cmake
+C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/shadeTree/CMakeFiles/shadeTree.dir/shadeTree_generated_parallelogram.cu.ptx.depend
+C:/ProgramData/NVIDIA Corporation/OptiX SDK 3.7.0/SDK/CMake/FindCUDA/run_nvcc.cmake
+C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/shadeTree/CMakeFiles/shadeTree.dir/shadeTree_generated_sphere_array.cu.ptx.depend

@@ -1,0 +1,747 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{58F7254F-9F66-4E96-BC3F-7C7D0E02F9B3}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>shadeTree</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\bin\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">shadeTree.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">shadeTree</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\bin\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">shadeTree.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">shadeTree</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\bin\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">shadeTree.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">shadeTree</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\bin\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">shadeTree.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">shadeTree</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\include;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\sutil;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\include\optixu;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\support\freeglut\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4355;4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;TARGET_NAME="shadeTree";_USE_MATH_DEFINES;NOMINMAX;GLUT_FOUND;GLUT_NO_LIB_PRAGMA;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;TARGET_NAME=\"shadeTree\";_USE_MATH_DEFINES;NOMINMAX;GLUT_FOUND;GLUT_NO_LIB_PRAGMA;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\include;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\sutil;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\include\optixu;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\support\freeglut\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\include;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\sutil;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\include\optixu;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\support\freeglut\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\lib\Debug\sutil.lib;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\lib64\optix.1.lib;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\lib64\optixu.1.lib;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\support\freeglut\win64\Release\freeglut.lib;glu32.lib;opengl32.lib;winmm.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/lib/Debug/shadeTree.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/bin/Debug/shadeTree.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\include;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\sutil;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\include\optixu;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\support\freeglut\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4355;4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Full</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;TARGET_NAME="shadeTree";_USE_MATH_DEFINES;NOMINMAX;GLUT_FOUND;GLUT_NO_LIB_PRAGMA;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;TARGET_NAME=\"shadeTree\";_USE_MATH_DEFINES;NOMINMAX;GLUT_FOUND;GLUT_NO_LIB_PRAGMA;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\include;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\sutil;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\include\optixu;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\support\freeglut\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\include;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\sutil;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\include\optixu;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\support\freeglut\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\lib\Release\sutil.lib;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\lib64\optix.1.lib;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\lib64\optixu.1.lib;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\support\freeglut\win64\Release\freeglut.lib;glu32.lib;opengl32.lib;winmm.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/lib/Release/shadeTree.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/bin/Release/shadeTree.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\include;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\sutil;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\include\optixu;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\support\freeglut\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4355;4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;TARGET_NAME="shadeTree";_USE_MATH_DEFINES;NOMINMAX;GLUT_FOUND;GLUT_NO_LIB_PRAGMA;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;TARGET_NAME=\"shadeTree\";_USE_MATH_DEFINES;NOMINMAX;GLUT_FOUND;GLUT_NO_LIB_PRAGMA;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\include;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\sutil;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\include\optixu;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\support\freeglut\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\include;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\sutil;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\include\optixu;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\support\freeglut\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\lib\MinSizeRel\sutil.lib;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\lib64\optix.1.lib;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\lib64\optixu.1.lib;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\support\freeglut\win64\Release\freeglut.lib;glu32.lib;opengl32.lib;winmm.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/lib/MinSizeRel/shadeTree.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/bin/MinSizeRel/shadeTree.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\include;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\sutil;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\include\optixu;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\support\freeglut\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4355;4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;TARGET_NAME="shadeTree";_USE_MATH_DEFINES;NOMINMAX;GLUT_FOUND;GLUT_NO_LIB_PRAGMA;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;TARGET_NAME=\"shadeTree\";_USE_MATH_DEFINES;NOMINMAX;GLUT_FOUND;GLUT_NO_LIB_PRAGMA;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\include;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\sutil;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\include\optixu;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\support\freeglut\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\include;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\sutil;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\include\optixu;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\support\freeglut\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\lib\RelWithDebInfo\sutil.lib;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\lib64\optix.1.lib;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\lib64\optixu.1.lib;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\support\freeglut\win64\Release\freeglut.lib;glu32.lib;opengl32.lib;winmm.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/lib/RelWithDebInfo/shadeTree.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/bin/RelWithDebInfo/shadeTree.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\shadeTree\camera.cu">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building NVCC ptx file lib/ptx/shadeTree_generated_camera.cu.ptx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd "C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\shadeTree.dir"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory "C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/lib/ptx"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D check_dependencies:BOOL=ON -D "CCBIN:PATH=$(VCInstallDir)bin" -D build_configuration:STRING=$(ConfigurationName) -D "generated_file:STRING=C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/lib/ptx/shadeTree_generated_camera.cu.ptx" -D "generated_cubin_file:STRING=C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/lib/ptx/shadeTree_generated_camera.cu.ptx.cubin.txt" -P "C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/shadeTree/CMakeFiles/shadeTree.dir//shadeTree_generated_camera.cu.ptx.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/ProgramData/NVIDIA Corporation/OptiX SDK 3.7.0/SDK/shadeTree/camera.cu;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\shadeTree.dir\shadeTree_generated_camera.cu.ptx.depend;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\shadeTree.dir\shadeTree_generated_camera.cu.ptx.cmake;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\shadeTree\camera.cu;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\lib\ptx\shadeTree_generated_camera.cu.ptx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building NVCC ptx file lib/ptx/shadeTree_generated_camera.cu.ptx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd "C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\shadeTree.dir"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory "C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/lib/ptx"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D check_dependencies:BOOL=ON -D "CCBIN:PATH=$(VCInstallDir)bin" -D build_configuration:STRING=$(ConfigurationName) -D "generated_file:STRING=C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/lib/ptx/shadeTree_generated_camera.cu.ptx" -D "generated_cubin_file:STRING=C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/lib/ptx/shadeTree_generated_camera.cu.ptx.cubin.txt" -P "C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/shadeTree/CMakeFiles/shadeTree.dir//shadeTree_generated_camera.cu.ptx.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/ProgramData/NVIDIA Corporation/OptiX SDK 3.7.0/SDK/shadeTree/camera.cu;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\shadeTree.dir\shadeTree_generated_camera.cu.ptx.depend;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\shadeTree.dir\shadeTree_generated_camera.cu.ptx.cmake;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\shadeTree\camera.cu;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\lib\ptx\shadeTree_generated_camera.cu.ptx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building NVCC ptx file lib/ptx/shadeTree_generated_camera.cu.ptx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd "C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\shadeTree.dir"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory "C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/lib/ptx"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D check_dependencies:BOOL=ON -D "CCBIN:PATH=$(VCInstallDir)bin" -D build_configuration:STRING=$(ConfigurationName) -D "generated_file:STRING=C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/lib/ptx/shadeTree_generated_camera.cu.ptx" -D "generated_cubin_file:STRING=C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/lib/ptx/shadeTree_generated_camera.cu.ptx.cubin.txt" -P "C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/shadeTree/CMakeFiles/shadeTree.dir//shadeTree_generated_camera.cu.ptx.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/ProgramData/NVIDIA Corporation/OptiX SDK 3.7.0/SDK/shadeTree/camera.cu;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\shadeTree.dir\shadeTree_generated_camera.cu.ptx.depend;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\shadeTree.dir\shadeTree_generated_camera.cu.ptx.cmake;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\shadeTree\camera.cu;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\lib\ptx\shadeTree_generated_camera.cu.ptx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building NVCC ptx file lib/ptx/shadeTree_generated_camera.cu.ptx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd "C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\shadeTree.dir"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory "C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/lib/ptx"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D check_dependencies:BOOL=ON -D "CCBIN:PATH=$(VCInstallDir)bin" -D build_configuration:STRING=$(ConfigurationName) -D "generated_file:STRING=C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/lib/ptx/shadeTree_generated_camera.cu.ptx" -D "generated_cubin_file:STRING=C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/lib/ptx/shadeTree_generated_camera.cu.ptx.cubin.txt" -P "C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/shadeTree/CMakeFiles/shadeTree.dir//shadeTree_generated_camera.cu.ptx.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/ProgramData/NVIDIA Corporation/OptiX SDK 3.7.0/SDK/shadeTree/camera.cu;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\shadeTree.dir\shadeTree_generated_camera.cu.ptx.depend;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\shadeTree.dir\shadeTree_generated_camera.cu.ptx.cmake;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\shadeTree\camera.cu;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\lib\ptx\shadeTree_generated_camera.cu.ptx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\shadeTree\shader_functions.cu">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building NVCC ptx file lib/ptx/shadeTree_generated_shader_functions.cu.ptx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd "C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\shadeTree.dir"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory "C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/lib/ptx"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D check_dependencies:BOOL=ON -D "CCBIN:PATH=$(VCInstallDir)bin" -D build_configuration:STRING=$(ConfigurationName) -D "generated_file:STRING=C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/lib/ptx/shadeTree_generated_shader_functions.cu.ptx" -D "generated_cubin_file:STRING=C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/lib/ptx/shadeTree_generated_shader_functions.cu.ptx.cubin.txt" -P "C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/shadeTree/CMakeFiles/shadeTree.dir//shadeTree_generated_shader_functions.cu.ptx.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/ProgramData/NVIDIA Corporation/OptiX SDK 3.7.0/SDK/shadeTree/shader_functions.cu;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\shadeTree.dir\shadeTree_generated_shader_functions.cu.ptx.depend;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\shadeTree.dir\shadeTree_generated_shader_functions.cu.ptx.cmake;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\shadeTree\shader_functions.cu;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\lib\ptx\shadeTree_generated_shader_functions.cu.ptx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building NVCC ptx file lib/ptx/shadeTree_generated_shader_functions.cu.ptx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd "C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\shadeTree.dir"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory "C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/lib/ptx"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D check_dependencies:BOOL=ON -D "CCBIN:PATH=$(VCInstallDir)bin" -D build_configuration:STRING=$(ConfigurationName) -D "generated_file:STRING=C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/lib/ptx/shadeTree_generated_shader_functions.cu.ptx" -D "generated_cubin_file:STRING=C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/lib/ptx/shadeTree_generated_shader_functions.cu.ptx.cubin.txt" -P "C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/shadeTree/CMakeFiles/shadeTree.dir//shadeTree_generated_shader_functions.cu.ptx.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/ProgramData/NVIDIA Corporation/OptiX SDK 3.7.0/SDK/shadeTree/shader_functions.cu;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\shadeTree.dir\shadeTree_generated_shader_functions.cu.ptx.depend;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\shadeTree.dir\shadeTree_generated_shader_functions.cu.ptx.cmake;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\shadeTree\shader_functions.cu;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\lib\ptx\shadeTree_generated_shader_functions.cu.ptx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building NVCC ptx file lib/ptx/shadeTree_generated_shader_functions.cu.ptx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd "C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\shadeTree.dir"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory "C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/lib/ptx"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D check_dependencies:BOOL=ON -D "CCBIN:PATH=$(VCInstallDir)bin" -D build_configuration:STRING=$(ConfigurationName) -D "generated_file:STRING=C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/lib/ptx/shadeTree_generated_shader_functions.cu.ptx" -D "generated_cubin_file:STRING=C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/lib/ptx/shadeTree_generated_shader_functions.cu.ptx.cubin.txt" -P "C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/shadeTree/CMakeFiles/shadeTree.dir//shadeTree_generated_shader_functions.cu.ptx.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/ProgramData/NVIDIA Corporation/OptiX SDK 3.7.0/SDK/shadeTree/shader_functions.cu;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\shadeTree.dir\shadeTree_generated_shader_functions.cu.ptx.depend;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\shadeTree.dir\shadeTree_generated_shader_functions.cu.ptx.cmake;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\shadeTree\shader_functions.cu;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\lib\ptx\shadeTree_generated_shader_functions.cu.ptx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building NVCC ptx file lib/ptx/shadeTree_generated_shader_functions.cu.ptx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd "C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\shadeTree.dir"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory "C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/lib/ptx"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D check_dependencies:BOOL=ON -D "CCBIN:PATH=$(VCInstallDir)bin" -D build_configuration:STRING=$(ConfigurationName) -D "generated_file:STRING=C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/lib/ptx/shadeTree_generated_shader_functions.cu.ptx" -D "generated_cubin_file:STRING=C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/lib/ptx/shadeTree_generated_shader_functions.cu.ptx.cubin.txt" -P "C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/shadeTree/CMakeFiles/shadeTree.dir//shadeTree_generated_shader_functions.cu.ptx.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/ProgramData/NVIDIA Corporation/OptiX SDK 3.7.0/SDK/shadeTree/shader_functions.cu;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\shadeTree.dir\shadeTree_generated_shader_functions.cu.ptx.depend;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\shadeTree.dir\shadeTree_generated_shader_functions.cu.ptx.cmake;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\shadeTree\shader_functions.cu;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\lib\ptx\shadeTree_generated_shader_functions.cu.ptx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\shadeTree\materials.cu">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building NVCC ptx file lib/ptx/shadeTree_generated_materials.cu.ptx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd "C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\shadeTree.dir"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory "C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/lib/ptx"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D check_dependencies:BOOL=ON -D "CCBIN:PATH=$(VCInstallDir)bin" -D build_configuration:STRING=$(ConfigurationName) -D "generated_file:STRING=C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/lib/ptx/shadeTree_generated_materials.cu.ptx" -D "generated_cubin_file:STRING=C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/lib/ptx/shadeTree_generated_materials.cu.ptx.cubin.txt" -P "C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/shadeTree/CMakeFiles/shadeTree.dir//shadeTree_generated_materials.cu.ptx.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/ProgramData/NVIDIA Corporation/OptiX SDK 3.7.0/SDK/shadeTree/materials.cu;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\shadeTree.dir\shadeTree_generated_materials.cu.ptx.depend;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\shadeTree.dir\shadeTree_generated_materials.cu.ptx.cmake;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\shadeTree\materials.cu;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\lib\ptx\shadeTree_generated_materials.cu.ptx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building NVCC ptx file lib/ptx/shadeTree_generated_materials.cu.ptx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd "C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\shadeTree.dir"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory "C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/lib/ptx"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D check_dependencies:BOOL=ON -D "CCBIN:PATH=$(VCInstallDir)bin" -D build_configuration:STRING=$(ConfigurationName) -D "generated_file:STRING=C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/lib/ptx/shadeTree_generated_materials.cu.ptx" -D "generated_cubin_file:STRING=C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/lib/ptx/shadeTree_generated_materials.cu.ptx.cubin.txt" -P "C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/shadeTree/CMakeFiles/shadeTree.dir//shadeTree_generated_materials.cu.ptx.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/ProgramData/NVIDIA Corporation/OptiX SDK 3.7.0/SDK/shadeTree/materials.cu;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\shadeTree.dir\shadeTree_generated_materials.cu.ptx.depend;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\shadeTree.dir\shadeTree_generated_materials.cu.ptx.cmake;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\shadeTree\materials.cu;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\lib\ptx\shadeTree_generated_materials.cu.ptx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building NVCC ptx file lib/ptx/shadeTree_generated_materials.cu.ptx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd "C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\shadeTree.dir"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory "C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/lib/ptx"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D check_dependencies:BOOL=ON -D "CCBIN:PATH=$(VCInstallDir)bin" -D build_configuration:STRING=$(ConfigurationName) -D "generated_file:STRING=C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/lib/ptx/shadeTree_generated_materials.cu.ptx" -D "generated_cubin_file:STRING=C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/lib/ptx/shadeTree_generated_materials.cu.ptx.cubin.txt" -P "C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/shadeTree/CMakeFiles/shadeTree.dir//shadeTree_generated_materials.cu.ptx.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/ProgramData/NVIDIA Corporation/OptiX SDK 3.7.0/SDK/shadeTree/materials.cu;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\shadeTree.dir\shadeTree_generated_materials.cu.ptx.depend;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\shadeTree.dir\shadeTree_generated_materials.cu.ptx.cmake;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\shadeTree\materials.cu;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\lib\ptx\shadeTree_generated_materials.cu.ptx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building NVCC ptx file lib/ptx/shadeTree_generated_materials.cu.ptx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd "C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\shadeTree.dir"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory "C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/lib/ptx"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D check_dependencies:BOOL=ON -D "CCBIN:PATH=$(VCInstallDir)bin" -D build_configuration:STRING=$(ConfigurationName) -D "generated_file:STRING=C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/lib/ptx/shadeTree_generated_materials.cu.ptx" -D "generated_cubin_file:STRING=C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/lib/ptx/shadeTree_generated_materials.cu.ptx.cubin.txt" -P "C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/shadeTree/CMakeFiles/shadeTree.dir//shadeTree_generated_materials.cu.ptx.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/ProgramData/NVIDIA Corporation/OptiX SDK 3.7.0/SDK/shadeTree/materials.cu;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\shadeTree.dir\shadeTree_generated_materials.cu.ptx.depend;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\shadeTree.dir\shadeTree_generated_materials.cu.ptx.cmake;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\shadeTree\materials.cu;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\lib\ptx\shadeTree_generated_materials.cu.ptx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\shadeTree\parallelogram.cu">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building NVCC ptx file lib/ptx/shadeTree_generated_parallelogram.cu.ptx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd "C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\shadeTree.dir"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory "C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/lib/ptx"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D check_dependencies:BOOL=ON -D "CCBIN:PATH=$(VCInstallDir)bin" -D build_configuration:STRING=$(ConfigurationName) -D "generated_file:STRING=C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/lib/ptx/shadeTree_generated_parallelogram.cu.ptx" -D "generated_cubin_file:STRING=C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/lib/ptx/shadeTree_generated_parallelogram.cu.ptx.cubin.txt" -P "C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/shadeTree/CMakeFiles/shadeTree.dir//shadeTree_generated_parallelogram.cu.ptx.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/ProgramData/NVIDIA Corporation/OptiX SDK 3.7.0/SDK/shadeTree/parallelogram.cu;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\shadeTree.dir\shadeTree_generated_parallelogram.cu.ptx.depend;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\shadeTree.dir\shadeTree_generated_parallelogram.cu.ptx.cmake;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\shadeTree\parallelogram.cu;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\lib\ptx\shadeTree_generated_parallelogram.cu.ptx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building NVCC ptx file lib/ptx/shadeTree_generated_parallelogram.cu.ptx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd "C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\shadeTree.dir"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory "C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/lib/ptx"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D check_dependencies:BOOL=ON -D "CCBIN:PATH=$(VCInstallDir)bin" -D build_configuration:STRING=$(ConfigurationName) -D "generated_file:STRING=C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/lib/ptx/shadeTree_generated_parallelogram.cu.ptx" -D "generated_cubin_file:STRING=C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/lib/ptx/shadeTree_generated_parallelogram.cu.ptx.cubin.txt" -P "C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/shadeTree/CMakeFiles/shadeTree.dir//shadeTree_generated_parallelogram.cu.ptx.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/ProgramData/NVIDIA Corporation/OptiX SDK 3.7.0/SDK/shadeTree/parallelogram.cu;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\shadeTree.dir\shadeTree_generated_parallelogram.cu.ptx.depend;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\shadeTree.dir\shadeTree_generated_parallelogram.cu.ptx.cmake;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\shadeTree\parallelogram.cu;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\lib\ptx\shadeTree_generated_parallelogram.cu.ptx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building NVCC ptx file lib/ptx/shadeTree_generated_parallelogram.cu.ptx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd "C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\shadeTree.dir"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory "C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/lib/ptx"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D check_dependencies:BOOL=ON -D "CCBIN:PATH=$(VCInstallDir)bin" -D build_configuration:STRING=$(ConfigurationName) -D "generated_file:STRING=C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/lib/ptx/shadeTree_generated_parallelogram.cu.ptx" -D "generated_cubin_file:STRING=C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/lib/ptx/shadeTree_generated_parallelogram.cu.ptx.cubin.txt" -P "C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/shadeTree/CMakeFiles/shadeTree.dir//shadeTree_generated_parallelogram.cu.ptx.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/ProgramData/NVIDIA Corporation/OptiX SDK 3.7.0/SDK/shadeTree/parallelogram.cu;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\shadeTree.dir\shadeTree_generated_parallelogram.cu.ptx.depend;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\shadeTree.dir\shadeTree_generated_parallelogram.cu.ptx.cmake;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\shadeTree\parallelogram.cu;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\lib\ptx\shadeTree_generated_parallelogram.cu.ptx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building NVCC ptx file lib/ptx/shadeTree_generated_parallelogram.cu.ptx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd "C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\shadeTree.dir"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory "C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/lib/ptx"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D check_dependencies:BOOL=ON -D "CCBIN:PATH=$(VCInstallDir)bin" -D build_configuration:STRING=$(ConfigurationName) -D "generated_file:STRING=C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/lib/ptx/shadeTree_generated_parallelogram.cu.ptx" -D "generated_cubin_file:STRING=C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/lib/ptx/shadeTree_generated_parallelogram.cu.ptx.cubin.txt" -P "C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/shadeTree/CMakeFiles/shadeTree.dir//shadeTree_generated_parallelogram.cu.ptx.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/ProgramData/NVIDIA Corporation/OptiX SDK 3.7.0/SDK/shadeTree/parallelogram.cu;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\shadeTree.dir\shadeTree_generated_parallelogram.cu.ptx.depend;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\shadeTree.dir\shadeTree_generated_parallelogram.cu.ptx.cmake;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\shadeTree\parallelogram.cu;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\lib\ptx\shadeTree_generated_parallelogram.cu.ptx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\shadeTree\sphere_array.cu">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building NVCC ptx file lib/ptx/shadeTree_generated_sphere_array.cu.ptx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd "C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\shadeTree.dir"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory "C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/lib/ptx"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D check_dependencies:BOOL=ON -D "CCBIN:PATH=$(VCInstallDir)bin" -D build_configuration:STRING=$(ConfigurationName) -D "generated_file:STRING=C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/lib/ptx/shadeTree_generated_sphere_array.cu.ptx" -D "generated_cubin_file:STRING=C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/lib/ptx/shadeTree_generated_sphere_array.cu.ptx.cubin.txt" -P "C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/shadeTree/CMakeFiles/shadeTree.dir//shadeTree_generated_sphere_array.cu.ptx.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/ProgramData/NVIDIA Corporation/OptiX SDK 3.7.0/SDK/shadeTree/sphere_array.cu;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\shadeTree.dir\shadeTree_generated_sphere_array.cu.ptx.depend;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\shadeTree.dir\shadeTree_generated_sphere_array.cu.ptx.cmake;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\shadeTree\sphere_array.cu;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\lib\ptx\shadeTree_generated_sphere_array.cu.ptx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building NVCC ptx file lib/ptx/shadeTree_generated_sphere_array.cu.ptx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd "C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\shadeTree.dir"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory "C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/lib/ptx"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D check_dependencies:BOOL=ON -D "CCBIN:PATH=$(VCInstallDir)bin" -D build_configuration:STRING=$(ConfigurationName) -D "generated_file:STRING=C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/lib/ptx/shadeTree_generated_sphere_array.cu.ptx" -D "generated_cubin_file:STRING=C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/lib/ptx/shadeTree_generated_sphere_array.cu.ptx.cubin.txt" -P "C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/shadeTree/CMakeFiles/shadeTree.dir//shadeTree_generated_sphere_array.cu.ptx.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/ProgramData/NVIDIA Corporation/OptiX SDK 3.7.0/SDK/shadeTree/sphere_array.cu;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\shadeTree.dir\shadeTree_generated_sphere_array.cu.ptx.depend;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\shadeTree.dir\shadeTree_generated_sphere_array.cu.ptx.cmake;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\shadeTree\sphere_array.cu;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\lib\ptx\shadeTree_generated_sphere_array.cu.ptx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building NVCC ptx file lib/ptx/shadeTree_generated_sphere_array.cu.ptx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd "C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\shadeTree.dir"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory "C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/lib/ptx"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D check_dependencies:BOOL=ON -D "CCBIN:PATH=$(VCInstallDir)bin" -D build_configuration:STRING=$(ConfigurationName) -D "generated_file:STRING=C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/lib/ptx/shadeTree_generated_sphere_array.cu.ptx" -D "generated_cubin_file:STRING=C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/lib/ptx/shadeTree_generated_sphere_array.cu.ptx.cubin.txt" -P "C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/shadeTree/CMakeFiles/shadeTree.dir//shadeTree_generated_sphere_array.cu.ptx.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/ProgramData/NVIDIA Corporation/OptiX SDK 3.7.0/SDK/shadeTree/sphere_array.cu;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\shadeTree.dir\shadeTree_generated_sphere_array.cu.ptx.depend;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\shadeTree.dir\shadeTree_generated_sphere_array.cu.ptx.cmake;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\shadeTree\sphere_array.cu;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\lib\ptx\shadeTree_generated_sphere_array.cu.ptx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building NVCC ptx file lib/ptx/shadeTree_generated_sphere_array.cu.ptx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd "C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\shadeTree.dir"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E make_directory "C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/lib/ptx"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D check_dependencies:BOOL=ON -D "CCBIN:PATH=$(VCInstallDir)bin" -D build_configuration:STRING=$(ConfigurationName) -D "generated_file:STRING=C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/lib/ptx/shadeTree_generated_sphere_array.cu.ptx" -D "generated_cubin_file:STRING=C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/lib/ptx/shadeTree_generated_sphere_array.cu.ptx.cubin.txt" -P "C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/shadeTree/CMakeFiles/shadeTree.dir//shadeTree_generated_sphere_array.cu.ptx.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/ProgramData/NVIDIA Corporation/OptiX SDK 3.7.0/SDK/shadeTree/sphere_array.cu;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\shadeTree.dir\shadeTree_generated_sphere_array.cu.ptx.depend;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\shadeTree.dir\shadeTree_generated_sphere_array.cu.ptx.cmake;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\shadeTree\sphere_array.cu;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\lib\ptx\shadeTree_generated_sphere_array.cu.ptx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\shadeTree\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/ProgramData/NVIDIA Corporation/OptiX SDK 3.7.0/SDK/shadeTree/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" "-HC:/ProgramData/NVIDIA Corporation/OptiX SDK 3.7.0/SDK" "-BC:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk" --check-stamp-file "C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/ProgramData/NVIDIA Corporation/OptiX SDK 3.7.0/SDK/shadeTree/CMakeLists.txt;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\shadeTree\CMakeLists.txt;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\CMake\FindCUDA\run_nvcc.cmake;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\shadeTree.dir\shadeTree_generated_camera.cu.ptx.depend;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\CMake\FindCUDA\run_nvcc.cmake;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\shadeTree.dir\shadeTree_generated_shader_functions.cu.ptx.depend;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\CMake\FindCUDA\run_nvcc.cmake;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\shadeTree.dir\shadeTree_generated_materials.cu.ptx.depend;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\CMake\FindCUDA\run_nvcc.cmake;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\shadeTree.dir\shadeTree_generated_parallelogram.cu.ptx.depend;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\CMake\FindCUDA\run_nvcc.cmake;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\shadeTree.dir\shadeTree_generated_sphere_array.cu.ptx.depend;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\shadeTree\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/ProgramData/NVIDIA Corporation/OptiX SDK 3.7.0/SDK/shadeTree/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" "-HC:/ProgramData/NVIDIA Corporation/OptiX SDK 3.7.0/SDK" "-BC:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk" --check-stamp-file "C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/ProgramData/NVIDIA Corporation/OptiX SDK 3.7.0/SDK/shadeTree/CMakeLists.txt;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\shadeTree\CMakeLists.txt;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\CMake\FindCUDA\run_nvcc.cmake;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\shadeTree.dir\shadeTree_generated_camera.cu.ptx.depend;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\CMake\FindCUDA\run_nvcc.cmake;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\shadeTree.dir\shadeTree_generated_shader_functions.cu.ptx.depend;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\CMake\FindCUDA\run_nvcc.cmake;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\shadeTree.dir\shadeTree_generated_materials.cu.ptx.depend;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\CMake\FindCUDA\run_nvcc.cmake;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\shadeTree.dir\shadeTree_generated_parallelogram.cu.ptx.depend;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\CMake\FindCUDA\run_nvcc.cmake;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\shadeTree.dir\shadeTree_generated_sphere_array.cu.ptx.depend;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\shadeTree\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/ProgramData/NVIDIA Corporation/OptiX SDK 3.7.0/SDK/shadeTree/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" "-HC:/ProgramData/NVIDIA Corporation/OptiX SDK 3.7.0/SDK" "-BC:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk" --check-stamp-file "C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/ProgramData/NVIDIA Corporation/OptiX SDK 3.7.0/SDK/shadeTree/CMakeLists.txt;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\shadeTree\CMakeLists.txt;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\CMake\FindCUDA\run_nvcc.cmake;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\shadeTree.dir\shadeTree_generated_camera.cu.ptx.depend;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\CMake\FindCUDA\run_nvcc.cmake;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\shadeTree.dir\shadeTree_generated_shader_functions.cu.ptx.depend;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\CMake\FindCUDA\run_nvcc.cmake;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\shadeTree.dir\shadeTree_generated_materials.cu.ptx.depend;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\CMake\FindCUDA\run_nvcc.cmake;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\shadeTree.dir\shadeTree_generated_parallelogram.cu.ptx.depend;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\CMake\FindCUDA\run_nvcc.cmake;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\shadeTree.dir\shadeTree_generated_sphere_array.cu.ptx.depend;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\shadeTree\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/ProgramData/NVIDIA Corporation/OptiX SDK 3.7.0/SDK/shadeTree/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" "-HC:/ProgramData/NVIDIA Corporation/OptiX SDK 3.7.0/SDK" "-BC:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk" --check-stamp-file "C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/ProgramData/NVIDIA Corporation/OptiX SDK 3.7.0/SDK/shadeTree/CMakeLists.txt;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\shadeTree\CMakeLists.txt;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\CMake\FindCUDA\run_nvcc.cmake;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\shadeTree.dir\shadeTree_generated_camera.cu.ptx.depend;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\CMake\FindCUDA\run_nvcc.cmake;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\shadeTree.dir\shadeTree_generated_shader_functions.cu.ptx.depend;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\CMake\FindCUDA\run_nvcc.cmake;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\shadeTree.dir\shadeTree_generated_materials.cu.ptx.depend;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\CMake\FindCUDA\run_nvcc.cmake;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\shadeTree.dir\shadeTree_generated_parallelogram.cu.ptx.depend;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\CMake\FindCUDA\run_nvcc.cmake;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\shadeTree.dir\shadeTree_generated_sphere_array.cu.ptx.depend;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\shadeTree\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\shadeTree\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\shadeTree\shader_defs.h" />
+    <ClInclude Include="C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\shadeTree\commonStructs.h" />
+    <ClInclude Include="C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\shadeTree\helpers.h" />
+    <ClCompile Include="C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\shadeTree\shadeTree.cpp"  />
+    <None Include="C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\lib\ptx\shadeTree_generated_camera.cu.ptx" />
+    <None Include="C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\lib\ptx\shadeTree_generated_shader_functions.cu.ptx" />
+    <None Include="C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\lib\ptx\shadeTree_generated_materials.cu.ptx" />
+    <None Include="C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\lib\ptx\shadeTree_generated_parallelogram.cu.ptx" />
+    <None Include="C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\lib\ptx\shadeTree_generated_sphere_array.cu.ptx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/ZERO_CHECK.vcxproj">
+      <Project>4983198A-FB99-4DCA-A557-75CCE8300EEE</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/sutil/sutil.vcxproj">
+      <Project>B058F6EB-2CBC-4A83-B8FC-A112DD14A536</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

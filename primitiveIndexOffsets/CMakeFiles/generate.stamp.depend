@@ -1,0 +1,10 @@
+# CMake generation dependency list for this directory.
+C:/ProgramData/NVIDIA Corporation/OptiX SDK 3.7.0/SDK/primitiveIndexOffsets/CMakeLists.txt
+C:/ProgramData/NVIDIA Corporation/OptiX SDK 3.7.0/SDK/CMake/FindCUDA/run_nvcc.cmake
+C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/primitiveIndexOffsets/CMakeFiles/primitiveIndexOffsets.dir/primitiveIndexOffsets_generated_constantbg.cu.ptx.depend
+C:/ProgramData/NVIDIA Corporation/OptiX SDK 3.7.0/SDK/CMake/FindCUDA/run_nvcc.cmake
+C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/primitiveIndexOffsets/CMakeFiles/primitiveIndexOffsets.dir/primitiveIndexOffsets_generated_phong.cu.ptx.depend
+C:/ProgramData/NVIDIA Corporation/OptiX SDK 3.7.0/SDK/CMake/FindCUDA/run_nvcc.cmake
+C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/primitiveIndexOffsets/CMakeFiles/primitiveIndexOffsets.dir/primitiveIndexOffsets_generated_pinhole_camera.cu.ptx.depend
+C:/ProgramData/NVIDIA Corporation/OptiX SDK 3.7.0/SDK/CMake/FindCUDA/run_nvcc.cmake
+C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/primitiveIndexOffsets/CMakeFiles/primitiveIndexOffsets.dir/primitiveIndexOffsets_generated_triangle_mesh.cu.ptx.depend

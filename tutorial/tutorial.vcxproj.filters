@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\tutorial\tutorial.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\tutorial\tutorial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\tutorial\commonStructs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\tutorial\tutorial0.cu">
+      <Filter>CUDA Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\tutorial\tutorial1.cu">
+      <Filter>CUDA Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\tutorial\tutorial2.cu">
+      <Filter>CUDA Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\tutorial\tutorial3.cu">
+      <Filter>CUDA Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\tutorial\tutorial4.cu">
+      <Filter>CUDA Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\tutorial\tutorial5.cu">
+      <Filter>CUDA Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\tutorial\tutorial6.cu">
+      <Filter>CUDA Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\tutorial\tutorial7.cu">
+      <Filter>CUDA Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\tutorial\tutorial8.cu">
+      <Filter>CUDA Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\tutorial\tutorial9.cu">
+      <Filter>CUDA Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\tutorial\tutorial10.cu">
+      <Filter>CUDA Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\tutorial\tutorial11.cu">
+      <Filter>CUDA Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\tutorial\box.cu">
+      <Filter>CUDA Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\tutorial\parallelogram.cu">
+      <Filter>CUDA Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\tutorial\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\lib\ptx\tutorial_generated_tutorial0.cu.ptx">
+      <Filter>PTX Files</Filter>
+    </None>
+    <None Include="C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\lib\ptx\tutorial_generated_tutorial1.cu.ptx">
+      <Filter>PTX Files</Filter>
+    </None>
+    <None Include="C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\lib\ptx\tutorial_generated_tutorial2.cu.ptx">
+      <Filter>PTX Files</Filter>
+    </None>
+    <None Include="C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\lib\ptx\tutorial_generated_tutorial3.cu.ptx">
+      <Filter>PTX Files</Filter>
+    </None>
+    <None Include="C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\lib\ptx\tutorial_generated_tutorial4.cu.ptx">
+      <Filter>PTX Files</Filter>
+    </None>
+    <None Include="C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\lib\ptx\tutorial_generated_tutorial5.cu.ptx">
+      <Filter>PTX Files</Filter>
+    </None>
+    <None Include="C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\lib\ptx\tutorial_generated_tutorial6.cu.ptx">
+      <Filter>PTX Files</Filter>
+    </None>
+    <None Include="C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\lib\ptx\tutorial_generated_tutorial7.cu.ptx">
+      <Filter>PTX Files</Filter>
+    </None>
+    <None Include="C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\lib\ptx\tutorial_generated_tutorial8.cu.ptx">
+      <Filter>PTX Files</Filter>
+    </None>
+    <None Include="C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\lib\ptx\tutorial_generated_tutorial9.cu.ptx">
+      <Filter>PTX Files</Filter>
+    </None>
+    <None Include="C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\lib\ptx\tutorial_generated_tutorial10.cu.ptx">
+      <Filter>PTX Files</Filter>
+    </None>
+    <None Include="C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\lib\ptx\tutorial_generated_tutorial11.cu.ptx">
+      <Filter>PTX Files</Filter>
+    </None>
+    <None Include="C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\lib\ptx\tutorial_generated_box.cu.ptx">
+      <Filter>PTX Files</Filter>
+    </None>
+    <None Include="C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\lib\ptx\tutorial_generated_parallelogram.cu.ptx">
+      <Filter>PTX Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6076F668-0E2C-410B-89D4-51D0D74D81BC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{CF3178CB-AD5E-4BA6-9768-144FA4FF2BF2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PTX Files">
+      <UniqueIdentifier>{3BD38671-5FCF-4EBB-9975-C2AA2FAA9701}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CUDA Files">
+      <UniqueIdentifier>{02D9439A-9503-42F6-8D67-B6EB0A597F85}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

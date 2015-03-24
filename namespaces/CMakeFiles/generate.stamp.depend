@@ -1,0 +1,4 @@
+# CMake generation dependency list for this directory.
+C:/ProgramData/NVIDIA Corporation/OptiX SDK 3.7.0/SDK/namespaces/CMakeLists.txt
+C:/ProgramData/NVIDIA Corporation/OptiX SDK 3.7.0/SDK/CMake/FindCUDA/run_nvcc.cmake
+C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/namespaces/CMakeFiles/namespaces.dir/namespaces_generated_namespaces.cu.ptx.depend

@@ -1,0 +1,4 @@
+# CMake generation dependency list for this directory.
+C:/ProgramData/NVIDIA Corporation/OptiX SDK 3.7.0/SDK/simplePrime/CMakeLists.txt
+C:/ProgramData/NVIDIA Corporation/OptiX SDK 3.7.0/SDK/CMake/FindCUDA/run_nvcc.cmake
+C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/simplePrime/CMakeFiles/simplePrime.dir/simplePrime_generated_simplePrimeKernels.cu.obj.depend

@@ -1,0 +1,16 @@
+# CMake generation dependency list for this directory.
+C:/ProgramData/NVIDIA Corporation/OptiX SDK 3.7.0/SDK/cook/CMakeLists.txt
+C:/ProgramData/NVIDIA Corporation/OptiX SDK 3.7.0/SDK/CMake/FindCUDA/run_nvcc.cmake
+C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/cook/CMakeFiles/cook.dir/cook_generated_dof_camera.cu.ptx.depend
+C:/ProgramData/NVIDIA Corporation/OptiX SDK 3.7.0/SDK/CMake/FindCUDA/run_nvcc.cmake
+C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/cook/CMakeFiles/cook.dir/cook_generated_parallelogram.cu.ptx.depend
+C:/ProgramData/NVIDIA Corporation/OptiX SDK 3.7.0/SDK/CMake/FindCUDA/run_nvcc.cmake
+C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/cook/CMakeFiles/cook.dir/cook_generated_sphere.cu.ptx.depend
+C:/ProgramData/NVIDIA Corporation/OptiX SDK 3.7.0/SDK/CMake/FindCUDA/run_nvcc.cmake
+C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/cook/CMakeFiles/cook.dir/cook_generated_sphere_texcoord.cu.ptx.depend
+C:/ProgramData/NVIDIA Corporation/OptiX SDK 3.7.0/SDK/CMake/FindCUDA/run_nvcc.cmake
+C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/cook/CMakeFiles/cook.dir/cook_generated_clearcoat.cu.ptx.depend
+C:/ProgramData/NVIDIA Corporation/OptiX SDK 3.7.0/SDK/CMake/FindCUDA/run_nvcc.cmake
+C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/cook/CMakeFiles/cook.dir/cook_generated_constantbg.cu.ptx.depend
+C:/ProgramData/NVIDIA Corporation/OptiX SDK 3.7.0/SDK/CMake/FindCUDA/run_nvcc.cmake
+C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/cook/CMakeFiles/cook.dir/cook_generated_distributed_phong.cu.ptx.depend

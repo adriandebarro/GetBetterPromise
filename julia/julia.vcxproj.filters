@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\julia\julia.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\julia\distance_field.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\julia\commonStructs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\julia\helpers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\julia\block_floor.cu">
+      <Filter>CUDA Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\julia\julia.cu">
+      <Filter>CUDA Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\julia\constantbg.cu">
+      <Filter>CUDA Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\julia\normal_shader.cu">
+      <Filter>CUDA Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\julia\pinhole_camera.cu">
+      <Filter>CUDA Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\julia\sphere.cu">
+      <Filter>CUDA Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\julia\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\lib\ptx\julia_generated_block_floor.cu.ptx">
+      <Filter>PTX Files</Filter>
+    </None>
+    <None Include="C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\lib\ptx\julia_generated_julia.cu.ptx">
+      <Filter>PTX Files</Filter>
+    </None>
+    <None Include="C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\lib\ptx\julia_generated_constantbg.cu.ptx">
+      <Filter>PTX Files</Filter>
+    </None>
+    <None Include="C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\lib\ptx\julia_generated_normal_shader.cu.ptx">
+      <Filter>PTX Files</Filter>
+    </None>
+    <None Include="C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\lib\ptx\julia_generated_pinhole_camera.cu.ptx">
+      <Filter>PTX Files</Filter>
+    </None>
+    <None Include="C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\lib\ptx\julia_generated_sphere.cu.ptx">
+      <Filter>PTX Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6076F668-0E2C-410B-89D4-51D0D74D81BC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{CF3178CB-AD5E-4BA6-9768-144FA4FF2BF2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PTX Files">
+      <UniqueIdentifier>{3BD38671-5FCF-4EBB-9975-C2AA2FAA9701}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CUDA Files">
+      <UniqueIdentifier>{02D9439A-9503-42F6-8D67-B6EB0A597F85}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

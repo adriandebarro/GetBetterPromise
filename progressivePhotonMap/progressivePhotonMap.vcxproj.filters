@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\progressivePhotonMap\ppm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\progressivePhotonMap\PpmObjLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\progressivePhotonMap\ppm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\progressivePhotonMap\select.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\progressivePhotonMap\PpmObjLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\progressivePhotonMap\helpers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\progressivePhotonMap\path_tracer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\progressivePhotonMap\random.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\progressivePhotonMap\ppm_rtpass.cu">
+      <Filter>CUDA Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\progressivePhotonMap\ppm_ppass.cu">
+      <Filter>CUDA Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\progressivePhotonMap\ppm_gather.cu">
+      <Filter>CUDA Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\progressivePhotonMap\parallelogram.cu">
+      <Filter>CUDA Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\progressivePhotonMap\sphere.cu">
+      <Filter>CUDA Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\progressivePhotonMap\triangle_mesh.cu">
+      <Filter>CUDA Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\progressivePhotonMap\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\lib\ptx\progressivePhotonMap_generated_ppm_rtpass.cu.ptx">
+      <Filter>PTX Files</Filter>
+    </None>
+    <None Include="C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\lib\ptx\progressivePhotonMap_generated_ppm_ppass.cu.ptx">
+      <Filter>PTX Files</Filter>
+    </None>
+    <None Include="C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\lib\ptx\progressivePhotonMap_generated_ppm_gather.cu.ptx">
+      <Filter>PTX Files</Filter>
+    </None>
+    <None Include="C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\lib\ptx\progressivePhotonMap_generated_parallelogram.cu.ptx">
+      <Filter>PTX Files</Filter>
+    </None>
+    <None Include="C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\lib\ptx\progressivePhotonMap_generated_sphere.cu.ptx">
+      <Filter>PTX Files</Filter>
+    </None>
+    <None Include="C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\lib\ptx\progressivePhotonMap_generated_triangle_mesh.cu.ptx">
+      <Filter>PTX Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6076F668-0E2C-410B-89D4-51D0D74D81BC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{CF3178CB-AD5E-4BA6-9768-144FA4FF2BF2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PTX Files">
+      <UniqueIdentifier>{3BD38671-5FCF-4EBB-9975-C2AA2FAA9701}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CUDA Files">
+      <UniqueIdentifier>{02D9439A-9503-42F6-8D67-B6EB0A597F85}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

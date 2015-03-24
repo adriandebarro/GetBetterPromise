@@ -1,0 +1,36 @@
+# CMake generation dependency list for this directory.
+C:/ProgramData/NVIDIA Corporation/OptiX SDK 3.7.0/SDK/CMakeLists.txt
+C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/CMakeFiles/3.2.1/CMakeSystem.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/CMakeFiles/3.2.1/CMakeCCompiler.cmake
+C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/CMakeFiles/3.2.1/CMakeCXXCompiler.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/CMakeGenericSystem.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/Platform/Windows.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/Platform/WindowsPaths.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/CMakeCInformation.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/Platform/Windows-MSVC.cmake
+C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/CMakeFiles/3.2.1/CMakeRCCompiler.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/CMakeRCInformation.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/CMakeCXXInformation.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/CMakeCommonLanguageInclude.cmake
+C:/ProgramData/NVIDIA Corporation/OptiX SDK 3.7.0/SDK/CMake/Macros.cmake
+C:/ProgramData/NVIDIA Corporation/OptiX SDK 3.7.0/SDK/CMake/CompilerInfo.cmake
+C:/ProgramData/NVIDIA Corporation/OptiX SDK 3.7.0/SDK/CMake/ConfigCompilerFlags.cmake
+C:/ProgramData/NVIDIA Corporation/OptiX SDK 3.7.0/SDK/CMake/sse_support.h.in
+C:/ProgramData/NVIDIA Corporation/OptiX SDK 3.7.0/SDK/CMake/FindCUDA.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/FindPackageMessage.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/CMakeParseArguments.cmake
+C:/ProgramData/NVIDIA Corporation/OptiX SDK 3.7.0/SDK/CMake/FindOptiX.cmake
+C:/ProgramData/NVIDIA Corporation/OptiX SDK 3.7.0/SDK/sampleConfig.h.in
+C:/ProgramData/NVIDIA Corporation/OptiX SDK 3.7.0/SDK/CMake/FindSUtilGLUT.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/FindOpenGL.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/FindPackageMessage.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.2/Modules/CMakeParseArguments.cmake

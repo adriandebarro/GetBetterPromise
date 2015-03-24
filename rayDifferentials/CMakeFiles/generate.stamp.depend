@@ -1,0 +1,16 @@
+# CMake generation dependency list for this directory.
+C:/ProgramData/NVIDIA Corporation/OptiX SDK 3.7.0/SDK/rayDifferentials/CMakeLists.txt
+C:/ProgramData/NVIDIA Corporation/OptiX SDK 3.7.0/SDK/CMake/FindCUDA/run_nvcc.cmake
+C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/rayDifferentials/CMakeFiles/rayDifferentials.dir/rayDifferentials_generated_flat_tex_mip.cu.ptx.depend
+C:/ProgramData/NVIDIA Corporation/OptiX SDK 3.7.0/SDK/CMake/FindCUDA/run_nvcc.cmake
+C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/rayDifferentials/CMakeFiles/rayDifferentials.dir/rayDifferentials_generated_glass_mip.cu.ptx.depend
+C:/ProgramData/NVIDIA Corporation/OptiX SDK 3.7.0/SDK/CMake/FindCUDA/run_nvcc.cmake
+C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/rayDifferentials/CMakeFiles/rayDifferentials.dir/rayDifferentials_generated_parallelogram_differentials.cu.ptx.depend
+C:/ProgramData/NVIDIA Corporation/OptiX SDK 3.7.0/SDK/CMake/FindCUDA/run_nvcc.cmake
+C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/rayDifferentials/CMakeFiles/rayDifferentials.dir/rayDifferentials_generated_phong_mip.cu.ptx.depend
+C:/ProgramData/NVIDIA Corporation/OptiX SDK 3.7.0/SDK/CMake/FindCUDA/run_nvcc.cmake
+C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/rayDifferentials/CMakeFiles/rayDifferentials.dir/rayDifferentials_generated_pinhole_camera_differentials.cu.ptx.depend
+C:/ProgramData/NVIDIA Corporation/OptiX SDK 3.7.0/SDK/CMake/FindCUDA/run_nvcc.cmake
+C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/rayDifferentials/CMakeFiles/rayDifferentials.dir/rayDifferentials_generated_sphere_differentials.cu.ptx.depend
+C:/ProgramData/NVIDIA Corporation/OptiX SDK 3.7.0/SDK/CMake/FindCUDA/run_nvcc.cmake
+C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/rayDifferentials/CMakeFiles/rayDifferentials.dir/rayDifferentials_generated_constantbg.cu.ptx.depend

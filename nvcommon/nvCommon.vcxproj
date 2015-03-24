@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{31FE1959-E378-45A6-BBB9-440EED68C160}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>nvCommon</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\lib\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">nvCommon.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">nvCommon</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\lib\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">nvCommon.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">nvCommon</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\lib\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">nvCommon.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">nvCommon</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\lib\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">nvCommon.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">nvCommon</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\include;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\sutil;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\include\optixu;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\nvcommon\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4355;4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_USE_MATH_DEFINES;NOMINMAX;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_USE_MATH_DEFINES;NOMINMAX;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\include;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\sutil;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\include\optixu;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\nvcommon\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\include;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\sutil;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\include\optixu;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\nvcommon\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\include;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\sutil;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\include\optixu;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\nvcommon\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4355;4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Full</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_USE_MATH_DEFINES;NOMINMAX;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_USE_MATH_DEFINES;NOMINMAX;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\include;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\sutil;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\include\optixu;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\nvcommon\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\include;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\sutil;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\include\optixu;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\nvcommon\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\include;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\sutil;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\include\optixu;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\nvcommon\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4355;4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_USE_MATH_DEFINES;NOMINMAX;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_USE_MATH_DEFINES;NOMINMAX;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\include;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\sutil;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\include\optixu;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\nvcommon\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\include;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\sutil;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\include\optixu;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\nvcommon\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\include;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\sutil;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\include\optixu;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\nvcommon\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4355;4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_USE_MATH_DEFINES;NOMINMAX;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_USE_MATH_DEFINES;NOMINMAX;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\include;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\sutil;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\include\optixu;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\nvcommon\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\include;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\sutil;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\include\optixu;C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\nvcommon\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\nvcommon\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/ProgramData/NVIDIA Corporation/OptiX SDK 3.7.0/SDK/nvcommon/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" "-HC:/ProgramData/NVIDIA Corporation/OptiX SDK 3.7.0/SDK" "-BC:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk" --check-stamp-file "C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\nvcommon\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/ProgramData/NVIDIA Corporation/OptiX SDK 3.7.0/SDK/nvcommon/CMakeLists.txt;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\nvcommon\CMakeLists.txt;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\nvcommon\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\nvcommon\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/ProgramData/NVIDIA Corporation/OptiX SDK 3.7.0/SDK/nvcommon/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" "-HC:/ProgramData/NVIDIA Corporation/OptiX SDK 3.7.0/SDK" "-BC:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk" --check-stamp-file "C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\nvcommon\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/ProgramData/NVIDIA Corporation/OptiX SDK 3.7.0/SDK/nvcommon/CMakeLists.txt;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\nvcommon\CMakeLists.txt;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\nvcommon\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\nvcommon\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/ProgramData/NVIDIA Corporation/OptiX SDK 3.7.0/SDK/nvcommon/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" "-HC:/ProgramData/NVIDIA Corporation/OptiX SDK 3.7.0/SDK" "-BC:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk" --check-stamp-file "C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\nvcommon\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/ProgramData/NVIDIA Corporation/OptiX SDK 3.7.0/SDK/nvcommon/CMakeLists.txt;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\nvcommon\CMakeLists.txt;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\nvcommon\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\nvcommon\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/ProgramData/NVIDIA Corporation/OptiX SDK 3.7.0/SDK/nvcommon/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" "-HC:/ProgramData/NVIDIA Corporation/OptiX SDK 3.7.0/SDK" "-BC:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk" --check-stamp-file "C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\nvcommon\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/ProgramData/NVIDIA Corporation/OptiX SDK 3.7.0/SDK/nvcommon/CMakeLists.txt;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\nvcommon\CMakeLists.txt;C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\nvcommon\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Adrian\Documents\Visual Studio 2013\Projects\OptixSdk\nvcommon\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\nvcommon\include\framebufferObject.h" />
+    <ClInclude Include="C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\nvcommon\include\nvArray.h" />
+    <ClInclude Include="C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\nvcommon\include\nvGlutManipulators.h" />
+    <ClInclude Include="C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\nvcommon\include\nvManipulators.h" />
+    <ClInclude Include="C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\nvcommon\include\nvMath.h" />
+    <ClInclude Include="C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\nvcommon\include\nvMatrix.h" />
+    <ClInclude Include="C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\nvcommon\include\nvQuaternion.h" />
+    <ClInclude Include="C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\nvcommon\include\nvSDKPath.h" />
+    <ClInclude Include="C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\nvcommon\include\nvShaderUtils.h" />
+    <ClInclude Include="C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\nvcommon\include\nvShape.h" />
+    <ClInclude Include="C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\nvcommon\include\nvTime.h" />
+    <ClInclude Include="C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\nvcommon\include\nvVector.h" />
+    <ClInclude Include="C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\nvcommon\include\nvVertexBuffer.h" />
+    <ClInclude Include="C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\nvcommon\include\renderVertexArray.h" />
+    <ClInclude Include="C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\nvcommon\include\renderbuffer.h" />
+    <ClCompile Include="C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\nvcommon\src\nvTime.cpp"  />
+    <ClCompile Include="C:\ProgramData\NVIDIA Corporation\OptiX SDK 3.7.0\SDK\nvcommon\src\framebufferObject.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Users/Adrian/Documents/Visual Studio 2013/Projects/OptixSdk/ZERO_CHECK.vcxproj">
+      <Project>4983198A-FB99-4DCA-A557-75CCE8300EEE</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
